@@ -22,10 +22,8 @@ body
   	border: 1px solid black;
   	padding: 50px;
   	margin-left:30%;
-  	margin-top:7%;
 }
-
-.buttons
+.calc_img
 {
-	width:10px;
+	margin-left:600px;
 }

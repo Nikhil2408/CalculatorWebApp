@@ -12,9 +12,10 @@
   		<h2 id="heading">Calculator Web App</h2>
 	</div>
 <br><br>
+<img class="calc_img" src="${pageContext.request.contextPath}/resources/images/calculator-img.jpeg" height="200"/>
 <div class="mainBody">	
 	<form action="processRequest" method="post">
-			<b>First Number: </b><input type="number" name="firstNumber" placeholder="Enter First Number"/><br><br>
+			<b>First Number: </b>&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="firstNumber" placeholder="Enter First Number"/><br><br>
 			<b>Second Number: </b><input type="number" name="secondNumber" placeholder="Enter Second Number"/><br><br>
 			<input type="submit" value="Add" name="add"/>
 			<input type="submit" value="Subtract" name="subtract"/>
